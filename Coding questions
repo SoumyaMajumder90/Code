@@ -4,7 +4,7 @@ chocolate distrribution problem
 2 pointer
 trapping rainwater
 Kadane Algorithm
-
+219 contain duplicates(sliding window, <int, vector> map)
 
 Sorting Techniques
 1. bubble
@@ -28,6 +28,11 @@ Dynamic programing
 3. longest common subsequence
 
 Trees
+1. preorder
+2. postorder
+3. inorder
+4. height of binary tree
+5. diameter
 
 Tries
 
