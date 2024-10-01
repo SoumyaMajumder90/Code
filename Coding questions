@@ -6,6 +6,13 @@ trapping rainwater
 Kadane Algorithm
 219 contain duplicates(sliding window, <int, vector> map)
 
+How to solve any array question
+1. sliding window
+2. taking extra space- vector, 2d vector, map, map<int, vector<int>> we can store anything in 2nd part of map
+3. reverse, sort
+4. 2 pointer, 3 pointer. meaning pointers
+
+
 Sorting Techniques
 1. bubble
 2. insertion
@@ -42,4 +49,5 @@ Graph
 3. BFS(priority queue)
 4. DFS(stack)
 
+Coding repository https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/tree/main/Algorithms
 
