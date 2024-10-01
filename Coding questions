@@ -21,6 +21,7 @@ Sorting Techniques
 
 Array
 1.moore voting algorithm
+2. Next permutation
 
 String
 
@@ -50,4 +51,6 @@ Graph
 4. DFS(stack)
 
 Coding repository https://github.com/Ayush7614/Daily-Coding-DS-ALGO-Practice/tree/main/Algorithms
+Cheat Sheet: https://github.com/jwasham/coding-interview-university/tree/main
 
+LeetCode solutions : https://github.com/armankhondker/best-leetcode-resources/tree/main/leetcode-solutions
