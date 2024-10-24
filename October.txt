@@ -1,0 +1,15 @@
+October 
+24th
+448 find all number dissapeard(hash set+ sorting+ binary search+ bool hash)
+268 missing numbers
+
+October
+Next greater element
+implement stack using array
+implement queue using array
+implement stack using queue
+implement min stack
+next smaller element
+trapping rainwater
+lemonade change
+longest happy string
