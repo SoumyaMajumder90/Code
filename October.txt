@@ -13,3 +13,16 @@ next smaller element
 trapping rainwater
 lemonade change
 longest happy string
+2938. Separate Black and White Balls
+3314. Construct the Minimum Bitwise Array I
+64. Minimum Path Sum
+
+25th 
+
+1266. Minimum Time Visiting All Points
+
+200. Number of Islands [iterative BFS or recursive DFS]
+977 square of sorted araray
+3sum
+
+
