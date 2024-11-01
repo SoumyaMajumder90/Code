@@ -25,4 +25,24 @@ longest happy string
 977 square of sorted araray
 3sum
 
+26th
+
+845. Longest Mountain in Array [two pointer] [find peak then go left and right from peak and calcuilate longestr peak]
+
+27th 1910. Remove All Occurrences of a Substring [use .find to find substring and then .erase them] 
+						 [push every char in string and check if last substring is same. if so erase them]
+
+
+28th
+
+209. Minimum Size Subarray Sum [slide window and sum. sum>=target? then slide left pointer till we get minimum]
+2501. Longest Square Streak in an Array
+1200. Minimum Absolute Difference
+
+29th 
+322 coin change [memorization didnt worked, iterative dp worked]
+338. Counting Bits [Brian Kernighan’s Algorithm] 
+
+
+
 
