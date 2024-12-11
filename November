@@ -1,0 +1,55 @@
+
+November
+1st
+784. Letter Case Permutation[backtracking+ recursing, if letter, uppercase then again come back and lowercase]
+isalpha() isdigit() islower()
+
+2.
+77. Combinations
+		[take ans and temp,  go to depth and use for loop to touch every next element and when temp size == k push it and return. 		then use for loop and do to next element using recursion and when the max length reached pop the element from temp]
+
+78. Subsets [same as previous. use recursion. if index is last one. push temp into ans and return else. push num[index] to temp then go next 		using recursion and then pop the num[index] and call recursion like one time we are taking the index and one time not taking 		the index]
+39. Combination Sum
+		[same as 77 just new target]
+
+40. Combination Sum II [same as previous but we cant take replication or duplicate and we have to sort the array]
+90. Subsets II [using for loop, we can use both for loop and recursion but using for loop we can add condition]
+216. Combination Sum III
+
+for subset
+	using for loop:
+
+	  void backtrack(vector<int>& nums, vector<vector<int>>& ans, int start, vector<int>& temp){
+        ans.push_back(temp);  // Add the current subset to the answer
+        
+        for(int i = start; i < nums.size(); i++) {
+            temp.push_back(nums[i]);          // Include nums[i] in the current subset
+            backtrack(nums, ans, i + 1, temp); // Recurse with the next index
+            temp.pop_back();                  // Backtrack by removing the last element
+        }
+    }
+
+	using recursion: 
+	void backtrack(vector<int>& nums, vector<vector<int>>& ans, int i, vector<int>& temp){
+        if(i==nums.size()){
+            ans.push_back(temp);
+            return;
+        }
+        temp.push_back(nums[i]);
+        backtrack(nums,ans,i+1,temp);
+        temp.pop_back();
+        backtrack(nums,ans,i+1,temp);
+
+
+    }
+
+
+10th November
+79
+
+
+16th
+162. Find Peak Element(binary search)
+
+
+standard error, generosity
