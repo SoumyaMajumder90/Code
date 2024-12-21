@@ -1,0 +1,10 @@
+16th
+DFS
+547. Number of Provinces [initialize counter and visited array and for each node not visited increase count and go dfs for that node and 			  check all connected components and mark visited]
+
+
+994. Rotting Oranges [push all initially rotten oranges into a queue with time 0, then perform BFS to rot adjacent fresh oranges while tracking time, and check if any fresh oranges remain at the end].
+
+20th
+topological sort [using dfs and stack]
+topological sort [bfs using kahn algo, basically we create inorder array and calculate inorder of every node. node not having inorder have 		  lowest topology]
