@@ -1,0 +1,3 @@
+January
+1971. Find if Path Exists in Graph [we can use both bfs and dfs to create the visited array. if visited array is false then no path is there else there is path]
+997. Find the Town Judge [maintain a trustcount array. if a trusts b. decrease a trustcount and increase b trustcount. at end person with trustcount n-1 will be judge]
