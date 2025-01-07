@@ -1,3 +1,23 @@
 January
+6th
 1971. Find if Path Exists in Graph [we can use both bfs and dfs to create the visited array. if visited array is false then no path is there else there is path]
+
+
 997. Find the Town Judge [maintain a trustcount array. if a trusts b. decrease a trustcount and increase b trustcount. at end person with trustcount n-1 will be judge]
+
+802. Find Eventual Safe States [not completed]
+
+7th
+63. Unique Paths II [memoization- use memo 2d array. if path exist return 1, if not then return 0
+		     tabulation- use double for loop for iteration. iteration will be always faster than recursion ]
+120. Triangle
+	   
+111 Mimimum depth of Binary tree [if root is null return 0. if root->left null return 1+(mindepth(root->right) and vice verse. return 1+ min(left, right)]
+
+
+
+108. Convert Sorted Array to Binary Search Tree
+169 Majority element [using moore voting algorithm]
+
+
+931. Minimum Falling Path Sum [memoization is giving TLE so go for tabulation/ bottom up approach ]
