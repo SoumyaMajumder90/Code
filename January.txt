@@ -20,4 +20,9 @@ January
 169 Majority element [using moore voting algorithm]
 
 
+
 931. Minimum Falling Path Sum [memoization is giving TLE so go for tabulation/ bottom up approach ]
+
+11th 
+45. Jump Game II
+179. Largest Number [convert into string and then return] 
