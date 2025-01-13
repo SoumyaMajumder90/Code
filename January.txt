@@ -26,3 +26,20 @@ January
 11th 
 45. Jump Game II
 179. Largest Number [convert into string and then return] 
+
+
+12th
+
+1248. Count Number of Nice Subarrays[sliding window. increment j till odd number occurs. then increment oddcount. if oddcount==target.now count the subarrays till j. then add them in count]
+
+1358. Number of Substrings Containing All Three Characters [almost same as previous. just increment j till a,b,c>1 if so start to increase i and increase count till a,b,c<1 then add the count to main count to count all the subarrays]
+
+1423. Maximum Points You Can Obtain from Cards[ok first i used a greedy solution to take the largest between the first and last and take that which is wrong as greedy wont give us best result always. so we use window to track all possible window and give out the sum. we start by taking sum of 1st k number. then substract that and add last index sum to see if it is larger. this way we calculate the whole window]
+
+
+701. Insert into a Binary Search Tree
+
+
+13th
+
+416. Partition Equal Subset Sum [if sum is odd return false. as both partition have equal sum. so it should be s/2. if we find target==0 return true. then simple memoization approach]
