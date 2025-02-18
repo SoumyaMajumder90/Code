@@ -1,0 +1,14 @@
+feb
+1091. Shortest Path in Binary Matrix [The algorithm uses Breadth-First Search (BFS) to explore all 8 possible directions from each cell in a binary matrix, marking visited cells with their shortest path distance, and returns the shortest path from (0,0) to (n-1,n-1), or -1 if unreachable. 🚀]
+
+152. Maximum Product Subarray
+[use kadane product lgo. two negative multiplied might be positive]
+
+1781. Sum of Beauty of All Substrings[while in loop.count max freq and min freq. and sum the difference btw them]
+
+Reverse a LL
+check LL is palindrome
+
+12th
+907. Sum of Subarray Minimums[can use two pointer but not optimal as we have to traverse whole array. use monotonic stack to store previous minimum and next minimum like next smaller element]
+735. Asteroid Collision[Use a stack to simulate asteroid collisions, popping elements when a negative asteroid destroys a positive one, and pushing only surviving asteroids.]
